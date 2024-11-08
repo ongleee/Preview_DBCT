@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Sarabun:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    width: 100%;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+.main {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.button12 {
+    position: relative;
+    background-color: #00000000;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.home-page {
+    background-color: rgb(0, 0, 0);
+    height: 50rem;
+    padding-top: 250px;
+    padding-bottom: 745px;
+    text-align: center;
+}
+
+.logo2 {
+    margin-left: 11rem;
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+}
+
+.button1 {
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #181818;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    border-radius: 19px;
+    border: 2px solid #181818;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 25px;
+    /* box-shadow: 1px 1px 2px #888888; */
+}
+
+.button1:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.button2 {
+    position: relative; /* เปลี่ยนเป็น relative */
+    width: 100px;
+    height:60px;
+    flex-shrink: 0;
+    fill: #CA7A7A;
+    filter: blur(70px);
+    background: rgb(230, 121, 230);
+    text-align: center; /* ลบ justify-content และ align-items */
+    left: 50%; /* เปลี่ยน left เป็น 50% */
+    top: 50%; /* เปลี่ยน butttom เป็น top และเปลี่ยนค่าเป็น 50% */
+    transform: translate(20%, -90%); /* เพิ่มการใช้ transform เพื่อจัดกลาง element */
+    z-index: 1;
+}
+
+.button2-2 {
+    position: relative;
+    margin-left: 10px;
+    color: #ffffff;
+    background: black;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    border-radius: 19px;
+    /* box-shadow: 1px 1px 2px #888888; */
+    border: 2px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 100;
+    padding: 10px 25px;
+}
+
+.button2-2:hover {
+    background: rgb(139, 73, 139);
+    color: #ffffff;
+}
+
+/* .conbutton { */
+
+
+.animtion-1 {
+    animation: logochangecolor1 5s infinite;
+}
+
+@keyframes logochangecolor1 {
+    25% {
+        color: rgb(230, 121, 230);
+    }
+
+    50% {
+        color: white;
+    }
+
+    75% {
+        color: white;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.animtion-2 {
+    animation: logochangecolor2 5s infinite;
+}
+
+@keyframes logochangecolor2 {
+    25% {
+        color: white
+    }
+
+    50% {
+        color: rgb(230, 121, 230);
+    }
+
+    75% {
+        color: white;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.animtion-3 {
+    animation: logochangecolor3 5s infinite;
+}
+
+@keyframes logochangecolor3 {
+    25% {
+        color: white
+    }
+
+    50% {
+        color: white;
+    }
+
+    75% {
+        color: rgb(255, 255, 152);
+    }
+
+    100% {
+        color: white;
+    }
+
+}
+
+.animtion-4 {
+    animation: logochangecolor4 5s infinite;
+}
+
+@keyframes logochangecolor4 {
+    25% {
+        color: white
+    }
+
+    50% {
+        color: white;
+    }
+
+    75% {
+        color: white;
+    }
+
+    100% {
+        color: rgb(230, 121, 230);
+    }
+
+}
+
+.logo {
+    font-size: 100px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.aaa3 {
+    color: rgb(255, 255, 152);
+}
+
+
+
+.fffff {
+    padding: 5px;
+    margin: 5px;
+}
+

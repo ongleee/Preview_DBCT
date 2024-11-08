@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%; /* Set both html and body to 100% height */
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    /* position: relative; */
+    background: #0C0012;
+    width: 100%;
+    height: 100%;
+    color: #e5e5e5;
+}
+.con-content {
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    height: 500px;
+    transform: translate(200px, 139px);
+    /* background-color: gray; */
+}
+.content p{
+    padding: 10px 0 0 0 ;
+    color: gray;
+}
+.contact-content {
+    padding: 5rem 0 0 0;
+}
+.contact-content1 {
+    margin-bottom: 60px;
+}
+.contact-content img {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    margin-right: 10px;
+}
+.contact-content1 span {
+    margin-right: 10px;
+}
+.content h1 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.con-message {
+    position: absolute;
+    width: 686px;
+    height: 700px;
+    left: 1001px;
+    top: 139px;
+    background: rgba(217, 217, 217, 0.04);
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+}
+.message-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.input-msg {
+    margin-top: 15px;
+    text-align: unset;
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid #5E5E5E;
+    border-radius: 30px;
+    width: 100%;
+    /* ทำให้มีความกว้างเต็มทั้งหน้าจอ */
+    padding-right: 35px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    height: 100px;
+    /* ปรับขนาดความสูงตามที่ต้องการ */
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    border-color: #1d0022;
+}
+
+.input-name {
+    text-align: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid #5E5E5E;
+    border-radius: 30px;
+    width: 100%;
+    /* ทำให้มีความกว้างเต็มทั้งหน้าจอ */
+    padding-right: 35px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    /* ปรับขนาดความสูงตามที่ต้องการ */
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    border-color: #1d0022;
+}
+
+.input-mail {
+    text-align: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid #5E5E5E;
+    border-radius: 30px;
+    width: 100%;
+    /* ทำให้มีความกว้างเต็มทั้งหน้าจอ */
+    padding-right: 35px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    /* ปรับขนาดความสูงตามที่ต้องการ */
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    border-color: #1d0022;
+}
+
+.btn {
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    border-radius: 90px;
+    height: 35px;
+    color: #fff;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #3d0038;
+    transition: all 200ms;
+}
+
+.btn:hover {
+    background-color: #960089;
+}

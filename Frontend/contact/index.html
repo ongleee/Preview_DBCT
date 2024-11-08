@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="con-content">
+                <div class="content">
+                    <h1>Contact us</h1>
+                    <p>Fill up the form and our Team will get back to you within 24 hours</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-content1">
+                        <i class='bx bxs-phone'></i>
+                        <span>+6698 - xxx - xxxx</span>
+                        <br>
+                    </div>
+                    <div class="contact-content1">
+                        <i class='bx bxs-phone'></i>
+                        <span>+6698 - xxx - xxxx</span>
+                        <br>
+                    </div>
+                    <div class="contact-content1">
+                        <i class='bx bx-envelope' ></i>
+                        <span>contact@dbct.xyz</span>
+                    </div>
+                </div>
+            </div>
+            <div class="con-message">
+                <form action="/Backend/send_contact.php" class="message-box" method="post">
+                    <label>Username</label>
+                    <br>
+                    <input class="input-name" name="username" type="text" id="username" placeholder="Enter Name"
+                        required>
+                    <br>
+                    <label>Mail</label>
+                    <br>
+                    <input class="input-mail" name="email" type="text" id="email" placeholder="Enter your Mail" required>
+                    <br>
+                    <label>Message</label>
+                    <br>
+                    <textarea class="input-msg" name="message" type="text" id="message" placeholder="Enter Message"
+                        required></textarea>
+                    <br>
+                    <input class="btn" type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
